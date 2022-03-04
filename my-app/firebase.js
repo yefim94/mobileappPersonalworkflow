@@ -3,13 +3,7 @@ import { getAuth, createUserWithEmailAndPassword ,signOut} from "firebase/auth";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC6KCAP-a0r2ka14dUILym_BkQnGh0kLAs",
-  authDomain: "alumnna.firebaseapp.com",
-  projectId: "alumnna",
-  storageBucket: "alumnna.appspot.com",
-  messagingSenderId: "78602677648",
-  appId: "1:78602677648:web:b37fa2c47938031ce59715",
-  measurementId: "G-P9TM9JGCVM"
+  {secret}
 };
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth();
